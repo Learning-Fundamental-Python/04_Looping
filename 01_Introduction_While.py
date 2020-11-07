@@ -63,7 +63,7 @@ while guess != number:
     else:
         print("Your guess number too low")
 
-print("\nExample 4 :")
+print("\nExample 04 :")
 # Multiple Subtraction Quiz
 
 correct_count = 0  # Count the number of correct answer
@@ -100,7 +100,7 @@ test_time = format((end_time - start_time), ".0f")  # Get the test time
 print(f"Correct count is {correct_count} out of {NUMBER_OF_QUESTIONS}")
 print(f"Test time is {test_time} seconds")
 
-print("\nExample 5 :")
+print("\nExample 05 :")
 # Controlling a Loop with a Sentinel Value
 data = eval(input("Enter an integer (the input ends " +
                   "if it is 0) : "))
@@ -115,7 +115,7 @@ while data != 0:
 
 print(f"The sum is {sum}")
 
-print("\nExample 6 :")
+print("\nExample 06 :")
 print("Example 6a :")
 i = 1
 while i < 10:
@@ -130,13 +130,13 @@ while i < 10:
         print(i)
         i = i + 1  # tidak muncul jawaban karena identasi pada IF bukan WHILE
 
-print("\nExample 7 :")
+print("\nExample 07 :")
 count = 0
 while count < 10:
     print(count, end=' ')
     count += 1
 
-print("\nExample 8 :")
+print("\nExample 08 :")
 # Define a maximum number
 number = eval(input("Enter an integer : "))
 max = number
@@ -149,7 +149,7 @@ while number != 0:
 print(f"Max is {max}")
 print(f"number is {number}")
 
-print("\nExample 8b :")
+print("\nExample 08b :")
 # Define a minimum number
 number = eval(input("Enter an integer : "))
 min = number
